@@ -13,10 +13,10 @@ search.addEventListener('search',(e)=>{
     location.reload();
 })
 const APIURL =
-    "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=f5a6d391a4ce7e074caa74dd7be65dfa";
+    "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=APIKEY";
 const IMGPATH = "https://image.tmdb.org/t/p/w1280";
 const SEARCHAPI =
-    "https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=";
+    "https://api.themoviedb.org/3/search/movie?&api_key=APIKEY&query=";
 
 const getMovies= async(url)=>{
     const response=await fetch(url)
