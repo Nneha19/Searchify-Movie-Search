@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@300;400;500&family=Roboto&family=Ubuntu&family=Volkhov&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(245, 71, 100);
+    font-weight: 600;
+    cursor: pointer;
+}
+.main-content{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+}
+.title, a{
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+.title{
+    font-size: 20px;
+}
+a{
+    font-size: 13px;
+    text-decoration-line: none;
+}
+
+#youtube-player{
+    border-radius: 10px;
+      @media (max-width: 480px) {
+        width: 90%;
+        height: 20%;
+      }
+}
+.footer{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    color: #554b4b; 
+    width: 100%;
+
+    @media screen and (max-width:425px){    
+        .footer{
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 15px;
+        }
+    }
+    
+}
